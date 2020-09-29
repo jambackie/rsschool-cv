@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+
+.container {
+  font-family: Roboto Condensed;
+  font-weight: 300;
+  width: 600px;
+  margin: 0 auto;
+  font-size: 16px;
+}
+
+h3, h1 {
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  color: rgb(56, 131, 37);
+}
+
+.header {
+  height: 200px;
+  display: flex;
+  background-color: rgb(214, 217, 203);
+}
+
+.photo {
+  width: 200px;
+  background: url(img/238221613_18333963464249580100.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin:30px 0 15px 30px;
+}
+
+.person {
+  width: 400px;
+  padding: 10px 0 10px 30px;
+}
+
+.contacts {
+  float: right;
+  padding-right: 10px;
+}
+
+.contacts__item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.value {
+  margin:auto 5px;
+}
+
+.icons {
+  
+  display: flex;
+}
+
+.mail {
+  background: url(img/at.png) no-repeat;
+  
+}
+
+.skype {
+  background: url(img/skype-business.png) no-repeat;
+}
+
+.telegram{
+  background: url(img/telegram.png) no-repeat;
+}
+
+.whatsapp {
+  background: url(img/whatsapp.png) no-repeat;
+}
+
+.icon {
+  background-size: cover;
+  height: 20px;
+  width: 20px;
+  margin: 5px;
+}
+
+.main {
+  display: flex;
+  background-color: rgba(205, 205, 205, .5)
+}
+
+.left {
+  width: 200px;
+  padding: 30px;
+}
+
+.right{
+  width: 400px;
+  padding: 30px 0 30px 30px;
+}
+
+.skills__list {
+  padding: 0;
+  list-style: none;
+}
+
+.profile__header{
+  display: flex;
+  justify-content: space-between;
+}
+
+.profile__line {
+  width: 100%;
+  height: 0;
+  padding: 4px 0 0 20px;
+}
+
+.profile__info{
+  width: 80%;
+}
