@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+
+.container {
+  font-family: Roboto Condensed;
+  font-weight: 300;
+  width: 600px;
+  margin: 0 auto;
+  font-size: 16px;
+}
+
+h3,
+h1 {
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  color: rgb(56, 131, 37);
+}
+
+li {
+  list-style: none;
+}
+
+.header {
+  height: 200px;
+  display: flex;
+  background-color: rgb(214, 217, 203);
+}
+
+.photo {
+  width: 200px;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  margin: 20px 0 15px 20px;
+}
+
+.img {
+  margin: 0 0 0 -27px;
+}
+
+.person {
+  width: 400px;
+  padding: 10px 0 10px 30px;
+}
+
+.contacts {
+  float: right;
+  padding: 0 10px 0 0;
+}
+
+.contacts__item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.value {
+  font-size: 14px;
+  margin: auto 5px;
+}
+
+.icons {
+  padding: 0;
+  display: flex;
+}
+
+.mail {
+  background: url(img/at.png) no-repeat;
+
+}
+
+.skype {
+  background: url(img/skype-business.png) no-repeat;
+}
+
+.telegram {
+  background: url(img/telegram.png) no-repeat;
+}
+
+.whatsapp {
+  background: url(img/whatsapp.png) no-repeat;
+}
+
+.github {
+  background: url(img/GitHub-Mark-32px.png) no-repeat;
+}
+
+.icon {
+  border-radius: 50%;
+  background-size: cover;
+  height: 20px;
+  width: 20px;
+  margin: 6px;
+}
+
+.main {
+  display: flex;
+  background-color: rgba(205, 205, 205, .5)
+}
+
+.left {
+  width: 200px;
+  padding: 30px 0 30px 30px;
+}
+
+.right {
+  width: 400px;
+  padding: 30px 0 30px 30px;
+}
+
+.skills__list {
+  padding: 0;
+}
+
+.profile__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profile__line {
+  width: 100%;
+  padding: 4px 0 0 12px;
+}
+
+.profile__info {
+  width: 80%;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  background-color: rgba(205, 205, 205, .8)
+}
