@@ -1,43 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My CV</title>
   <link rel="stylesheet" href="index.css">
 </head>
+
 <body>
   <div class="container">
     <header class="header">
-      <div class="photo"></div>
+      <figure class="photo">
+        <img class="img" src="./img/238221613_18333963464249580100.jpg" height="170" alt="Photo">
+      </figure>
       <div class="person">
         <h1>Alexandr Zhuravlov</h1>
         <hr>
-        <div class="contacts">
-          <div class="contacts__item">
-            <div class="icons">
-              <div class="icon mail"></div>
-              <div class="icon skype"></div>
-            </div>
-            <div class="value">
-              zizzy-r@hotmail.com
-            </div>
-          </div>
-          <div class="contacts__item">
-            <div class="icons">
-              <div class="icon telegram"></div>
-              <div class="icon whatsapp"></div>
-            </div>
-            <div class="value">
-              +7 (996) 928 26 89
-            </div>
-          </div>
-        </div>
+        <ul class="contacts">
+          <li class="contacts__item">
+            <ul class="icons">
+              <li class="icon mail"><a href="mailto:zizzy-r@hotmail.com"></a></li>
+              <li class="icon skype"><a href="Skype:live:zizzy-r?chat"></a></li>
+              <li class="value">
+                <a href="mailto:zizzy-r@hotmail.com">zizzy-r@hotmail.com</a>
+              </li>
+            </ul>
+          </li>
+          <li class="contacts__item">
+            <ul class="icons">
+              <li class="icon telegram"><a href="tg://resolve?domain=num79969282689"></a></li>
+              <li class="icon whatsapp"><a href="https://wa.me/79969282689"></a></li>
+              <li class="value">
+                <a href="tel:+79969282689">+7 (996) 928 26 89</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
         <h3>Student RS School</h3>
       </div>
     </header>
     <div class="main">
-      <div class="left">
+      <section class="left">
         <div class="skills">
           <h3>Skills:</h3>
           <ul class="skills__list">
@@ -60,33 +65,60 @@
           <h3>Education:</h3>
           <p>GeekBrains</p>
         </div>
-      </div>
+      </section>
       <hr>
-      <div class="right">
+      <section class="right">
         <div class="profile">
-            <h3 class="profile__header">About&nbspme:
-              <div class="profile__line"><hr></div>
-            </h3>
-            <p class="profile__info">Study web-development for change field of activity.</p>
+          <div class="profile__header">
+            <div>
+              <h3>About me:</h3>
+            </div>
+            <div class="profile__line">
+              <hr>
+            </div>
+          </div>
+          <p class="profile__info">Study web-development for change field of activity.</p>
         </div>
         <div class="profile">
-          <h3 class="profile__header">Code&nbspExample:
-            <div class="profile__line"><hr></div>
-          </h3>
+          <div class="profile__header">
+            <div>
+              <h3>Code Example:</h3>
+            </div>
+            <div class="profile__line">
+              <hr>
+            </div>
+          </div>
           <div class="profile__info">
-            <a href="https://github.com/jambackie/bootstrappage">https://github.com/jambackie/bootstrappage</a>
-          <a href="https://github.com/jambackie/mebel.github.io">https://github.com/jambackie/mebel.github.io</a>
+            <a href="https://github.com/jambackie/bootstrappage"
+              target="_blank">https://github.com/jambackie/bootstrappage</a>
+            <a href="https://github.com/jambackie/mebel.github.io"
+              target="_blank">https://github.com/jambackie/mebel.github.io</a>
 
           </div>
         </div>
-      <div class="profile">
-        <h3 class="profile__header">Practice&nbspExperience:
-          <div class="profile__line"><hr></div>
-        </h3>
-        <a href="https://jambackie.github.io/bootstrappage/">Homework 1</a><br>
-        <a href="https://jambackie.github.io/mebel.github.io/">Homework 2</a>
-      </div>
+        <div class="profile">
+          <div class="profile__header">
+            <div>
+              <h3>Practice Experience:</h3>
+            </div>
+            <div class="profile__line">
+              <hr>
+            </div>
+          </div>
+          <a href="https://jambackie.github.io/bootstrappage/" target="_blank">Homework 1</a><br>
+          <a href="https://jambackie.github.io/mebel.github.io/" target="_blank">Homework 2</a>
+        </div>
+      </section>
     </div>
+    <footer class="footer">
+      <a href="https://github.com/jambackie" target="_blank">
+        <div class="icon github"></div>
+        <span>MyGitHub</span>
+      </a>
+      <time datetime="2021">2021</time>
+      <a href="https://rs.school/js/" target="_blank"><img src="./img/rs_school_js.svg" width="80" alt="logo"></a>
+    </footer>
   </div>
 </body>
+
 </html>
